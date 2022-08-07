@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>MoosiCord</title>
+    </head>
+    <body>
+        <header id="titlebar">
+            <div class="draggable">
+                <span class="title">MoosiCord | Raph Development</span>
+                <div class="controls">
+                    <span class="button minimize" onclick="minApp()"></span>
+                    <span class="button close" onclick="closeApp()"></span>
+                </div>
+            </div>
+        </header>
+        <br><br>
+        <div class="login-block">
+            <h1 id="titledisplay">MoosiCord</h1>
+            <input type="text" value="" placeholder="Bot Token" id="username" class="token" />
+            <button onclick="attemptLogin()" id="startbtn">Start</button>
+        </div>
+        <br>
+        <h3 id="statustxt">Status: Waiting for authentication.</h3>
+        <script src="script.js"></script>
+    </body>
+</html>
