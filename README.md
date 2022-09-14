@@ -20,3 +20,16 @@ npm i
 electron .
 ```
 This should launch the application and you will be able to use it.
+
+# Features to add (Ideas)
+
+<table>
+<tr>
+<td>Play/Pause Controls</td>
+<td>⏯️</td>
+</tr>
+<tr>
+<td>Live Time Progress Bar</td>
+<td>🔄</td>
+</tr>
+</table>
